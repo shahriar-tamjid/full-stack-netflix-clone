@@ -66,7 +66,7 @@ In Next.JS when we create multi-page applications we need to put all the pages i
 We create our custom input component for all kinds of input tasks accross the app. In the `Input` component we interface `InputProps` with properties like id, onChange, value, label, type. This will make our job easy to perform all the input tasks.
 
 <br>
-![Auth_Screen_UI](/public/screenshots/auth_screen_ui.png)
+![image](/public/screenshots/auth_screen_ui.png)
 <br>
 
 ### Prisma, NextAuth, MongoDB Setup
@@ -110,7 +110,7 @@ Now create the schema for the database by creating models inside the `schema.pri
 After writing the schema go to the terminal and enter: `npx prisma db push` and this will create the database inside the MongoDB cluster.
 
 <br>
-![Prisma_Setup](/public/screenshots/creating_db_using_prisma.png)
+![image](/public/screenshots/creating_db_using_prisma.png)
 <br>
 
 In Next.JS when we create multi-page applications we need to put all the pages inside the `pages` directory and we can access any page by going to [http://localhost:3000/page_name](http://localhost:3000/page_name)
